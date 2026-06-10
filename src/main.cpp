@@ -3,8 +3,8 @@
 #include <PubSubClient.h>
 
 // conexões com internet e servidor mqtt
-const char* SSID = "NOME_DA_SUA_REDE";
-const char* PASSWORD = "SENHA_DA_SUA_REDE";
+const char* nomeWifi = "NOME_DA_SUA_REDE";
+const char* senhaWifi = "SENHA_DA_SUA_REDE";
 const char *mqtt_server = "broker.hivemq.com";
 const int Porta_BrokerMQTT = 1883;
 
